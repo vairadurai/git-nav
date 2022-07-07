@@ -220,10 +220,8 @@ i{
     color: #eee;
   }
   .choice{
-    text-align: center;
-  }
-  .choice{
     width: 100%;
+    text-align: center;
   }
   .choice-heading{
     border-radius: 350px;
@@ -275,7 +273,7 @@ i{
     font-family:  "Open Sans", sans-serif;
     font-weight: 500;
     font-size:20px;
-    width: 500px;
+    width: 600px;
     text-align: center;
     margin-left: 450px;
     margin-top: 20px;
@@ -287,21 +285,276 @@ color: #8fc04e;
 }
  .flex-box{
     display: flex;
-    justify-content:space-around;
-    width: 98%;
+    justify-content:space-evenly;
+    width: 90%;
     margin-top: 40px;
-    margin-left: 23px;
+    margin-left: 50px;
+    height: 370px;
 } 
 .box1{
-    border: 2px solid white;
-    width: 20%;
-    padding: 20px;
-    height: 200px;
+    width: 30%;
+    padding: 50px 50px 50px 30px;
+    height: 280px;
+    align-items: center;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+    border-width: 20px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+.box2{
+    width: 30%;
+    padding: 50px 50px 50px 30px;
+    height: 280px;
     /* text-align: center; */
     align-items: center;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
     /* box-sizing: content-box; */
+    /* display: inline-block; */
+    border-width: 20px;
+    /* margin-left: 90px; */
+    box-sizing: border-box;
+    line-height: 25px;
 }
+.box3{
+    width: 30%;
+    padding: 50px 50px 50px 30px;
+    height: 280px;
+    align-items: center;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+    border-width: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    line-height: 25px;   
+}
+.box1 .no{
+    color: #8fc04e;
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    font-family:"Open Sans", sans-serif;
+}
+.box1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #353535;
+    font-family:"Raleway", sans-serif;
+    margin-top: 25px;
+}
+.box1 .box-para{
+    font-size: 18px;
+    color: #615b5b;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.box2 .no{
+    color: #8fc04e;
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    font-family:"Open Sans", sans-serif;
+}
+.box2 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #353535;
+    font-family:"Raleway", sans-serif;
+    margin-top: 25px;
+}
+.box2 .box-para{
+    font-size: 18px;
+    color: #615b5b;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.box3 .no{
+    color: #8fc04e;
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    font-family:"Open Sans", sans-serif;
+}
+.box3 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #353535;
+    font-family:"Raleway", sans-serif;
+    margin-top: 25px;
+}
+.box3 .box-para{
+    font-size: 18px;
+    color: #615b5b;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.box1:hover{
+    background-color: #8fc04e;
+    transition: all 2s;
+}
+.box2:hover{
+    background-color: #8fc04e;
+    transition: all 2s;
+}
+.box3:hover{
+    background-color: #8fc04e;
+    transition: all 2s;
+}
+.box1:hover .no{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box2:hover .no{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box3:hover .no{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box1:hover h3{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box2:hover h3{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box3:hover h3{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box1:hover .box-para{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box2:hover .box-para{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.box3:hover .box-para{
+    color: #eee;
+    /* margin-bottom: 20px;
+    transition: all 0.3s; */
+}
+.numbers{
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.number .no1{
+    font-size: 48px;
+    color: #8fc04e;
+}
+.number span{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #615b5b;
+}
+.action{
+    text-align: center;
+    width: 100%;
+    background-image: url(../images/action.jpg);
+    background: linear-gradient(rgba(2,2,2,0.9) rgb(2, 2, 2));
+    /* background-color: #3f4c5fd4; */
+    height: 270px;
+    overflow: hidden;
+    background-position: center;
+    box-sizing: border-box;
+}
+.action-heading{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    margin-top: 50px;
+}
+.action-para p{
+    color: #eee;
+    font-size: 19px;
+    margin-top: 15px;
+    line-height: 25px;
+    width: 83%;
+    margin-left: 100px;
+}
+.action-call {
+    margin-top: 40px;
+}
+.action-call a{
+    text-decoration: none;
+    border: solid 2px #eee;
+    color: #eee;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-family:"Raleway", sans-serif;
+    padding: 10px;
+}
+.action-call a:hover {
+    background-color: #8fc04e;
+    border-color: #8fc04e;
+}
+
+
+.services{
+    margin-top: 50px;
+    text-align: center;
+    height: 250px;
+ }
+ .services-heading{
+    border-radius: 350px;
+    padding: 8px 20px;
+    margin-left: 100px;
+    font-size: 15px;
+    background-color: #f5f2f2;
+     font-weight: 700;
+    color:#8fc04e;
+    background-color: #f3f8ec;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    /* text-transform: uppercase; */
+     display: inline;
+  }  
+  .services-content{
+        font-size: 32px;
+        font-weight: 700;
+        color: #444444;
+        font-family: "Raleway", sans-serif;
+        margin-top: 35px;
+        margin-left: 100px;
+  } 
+ .services-para p{
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    width: 600px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #444444;
+} 
+ .services-content  span{
+color: #8fc04e;
+} 
+ 
+
+
+
+
+
+
+
+
 
 
 

@@ -139,9 +139,10 @@ i{
     justify-content: center;
     width: 64px;
     height: 64px;
-    border: 2px solid #d6e8bf;
     border-radius: 50px;
+    border: solid 1px rgb(215, 202, 202);
     /* transition: 0.5s; */
+    background-color:#f3f8ec;
     
 }
 .about-right-bottom{
@@ -467,8 +468,9 @@ color: #8fc04e;
     /* background-color: #3f4c5fd4; */
     height: 270px;
     overflow: hidden;
-    background-position: center;
+    /* background-position: center; */
     box-sizing: border-box;
+    background-size: cover;
 }
 .action-heading{
     font-size: 28px;
@@ -503,12 +505,10 @@ color: #8fc04e;
     background-color: #8fc04e;
     border-color: #8fc04e;
 }
-
-
 .services{
     margin-top: 50px;
     text-align: center;
-    height: 250px;
+    height: 170px;
  }
  .services-heading{
     border-radius: 350px;
@@ -546,7 +546,180 @@ color: #8fc04e;
  .services-content  span{
 color: #8fc04e;
 } 
- 
+.service-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.service-box1{
+    border:1px solid #d7dad2;
+    width: 400px;
+    height: 330px;
+    box-sizing: border-box;
+    margin: 10px;
+    /* padding: 30px 30px 30px 0px; */
+    padding: 60px;
+    /* box-shadow: 0px 5px 20px rgb(0 0 0 / 15%); */
+    }
+.service-icon i{
+    border: solid 1px rgb(215, 202, 202);
+    border-radius: 50%;
+    padding: 18px;
+    font-size: 20px;
+    background-color:#f3f8ec;
+    /* transition: all ease-in-out 0.3s; */
+}
+.service-box1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #353535;
+    font-family:"Raleway", sans-serif;
+    margin-top: 40px;
+}
+.service-box1 p{
+    font-size: 18px;
+    color: #615b5b;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    align-items: center;
+}
+.service-box1:hover{
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+    transition:  1.5s;
+}   
+.service-box1:hover .service-icon i{
+  color: #8fc04e;
+  border-color: #8fc04e ;
+  transition: 0.9s;
+}
+.service-box1:hover h3{
+    color: #8fc04e;
+    transition: 0.9s;
+}
+.port{
+    margin-top: 50px;
+    text-align: center;
+    height: 170px;
+ }
+.port-heading{
+    border-radius: 350px;
+    padding: 8px 20px;
+    margin-left: 100px;
+    font-size: 15px;
+    background-color: #f5f2f2;
+     font-weight: 700;
+    color:#8fc04e;
+    background-color: #f3f8ec;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    /* text-transform: uppercase; */
+     display: inline;
+}
+.port-content{
+    font-size: 32px;
+        font-weight: 700;
+        color: #444444;
+        font-family: "Raleway", sans-serif;
+        margin-top: 35px;
+        margin-left: 100px;
+}
+.port-para{
+    border-radius: 350px;
+    padding: 8px 20px;
+    margin-left: 420px;
+    font-size: 15px;
+     font-weight: 700;
+    color:#615b5b;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    /* text-transform: uppercase; */
+     /* display: inline; */
+     width: 500px;
+}
+.port-content span{
+    color: #8fc04e;
+}
+.port-website{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.port-all{
+    border: solid 1px rgb(215, 202, 202);
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    background-color: #8fc04e;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    color: #eee;
+    border-radius: 50px;
+    text-align: center;
+}
+.port-app{
+    border: solid 1px rgb(215, 202, 202);
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #efefef;
+    border-radius: 50px;
+}
+.port-app:hover.port-app {
+    color: #eee;
+    background-color: #8fc04e;
+}
+.port-card{
+    border: solid 1px rgb(215, 202, 202);
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #efefef;
+    border-radius: 50px;
+}
+.port-card:hover.port-card {
+    color: #eee;
+    background-color: #8fc04e;
+}
+.port-web{
+    border: solid 1px rgb(215, 202, 202);
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #efefef;
+    border-radius: 50px;
+}
+.port-web:hover.port-web {
+    color: #eee;
+    background-color: #8fc04e;
+}
+
+
 
 
 

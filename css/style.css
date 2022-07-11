@@ -718,6 +718,46 @@ color: #8fc04e;
     color: #eee;
     background-color: #8fc04e;
 }
+.port-flex-container{
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 30px;
+} 
+.port-flex-container-iteams{
+
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.port-img{
+    width: 33.3%;
+    height: 290px;
+    position: relative;
+}
+.port-img img{
+    /* width: 100%; */
+    height: 267px;
+    width: 340px;
+    
+}
+.port-img-content{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10%;
+    /* flex-direction: row; */
+}
+.port-img-app{
+    padding-left: 20px;
+}
+.port-link{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+
 
 
 

@@ -147,9 +147,9 @@ i{
     width: 64px;
     height: 64px;
     border-radius: 50px;
-    border: solid 1px rgb(215, 202, 202);
+    border: solid 2px #d7dad2;
     /* transition: 0.5s; */
-    background-color:#f3f8ec;
+    background-color:#fff;
     
 }
 .about-right-bottom{
@@ -930,11 +930,11 @@ color: #8fc04e;
 .testimonial{
     width: 100%;
     margin: auto;
-    height: 450px;
+    height: 452px;
     text-align: center;
 }
 .testimonial-flux-container{
-    min-height: 400px;
+    min-height: 452px;
     width: 100%;
     background-image: url(../images/testimonials-bg.jpg);
     background-size: cover;
@@ -943,7 +943,7 @@ color: #8fc04e;
 .testimonial-content-bg{
     background: rgba(2, 2, 2, 0.7);
     width: 100%;
-    height:400px;
+    height:452px;
 }
 .testimonial-content img{
     width: 100px;
@@ -979,12 +979,13 @@ color: #8fc04e;
 .pricing{
     width: 100%;
     margin: auto;
-    height: 300px;
+    height: 160px;
+    margin-top: 40px;
 }
 .pricing-container{
     width: 100%;
     text-align: center;
-    height: 200px;
+    height: 180px;
 }
 .pricing-container h3{
     border-radius: 350px;
@@ -1044,10 +1045,12 @@ color: #8fc04e;
     margin-top: 50px;
     font-size: 18px;
     font-weight: 600;
+    color: #353535;
 }
 .pricing-flux-container-items1 .pricing-icon i{
     font-size: 20px;
     margin-top: -30px;
+    color: #8fc04e;
 }
 .pricing-flux-container-items1 .pricing-icon span{
     font-size: 55px;
@@ -1055,9 +1058,37 @@ color: #8fc04e;
     /* padding-bottom: 50px; */
     color: #8fc04e;
 }
+.pricing-flux-container-items1 .pricing-icon h4{
+    color: #bababa;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
 .pricing-flux-container-items1 li{
+    font-family: "Open Sans", sans-serif;
     line-height: 50px;
     list-style-type: none;
+    font-size: 14px;
+    color: #353535;
+}
+.pricing-flux-container-items1 del{
+    font-size: 17px;
+    color: #ccc;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.pricing-flux-container-items1 a{
+    text-decoration: none;
+    border: #8fc04e solid 2px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: #8fc04e;
+    font-weight: 600px;
+}
+.pricing-flux-container-items1 a:hover{
+    background-color: #8fc04e;
+    color: #fff;
+    transition: all 0.3s;
 }
 .pricing-flux-container-items2{
     width: 350px;
@@ -1068,6 +1099,76 @@ color: #8fc04e;
     border-radius: 10px;
     text-align: center;
     border: solid 1px #8fc04e;
+    overflow: hidden;
+}
+.pricing-flux-container-items2 .pricing-box{
+    width: 100px;
+    border: solid 1px white;
+    border-radius: 50px;
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #8fc04e;
+    margin-left: 100px;
+    /* position: absolute; */
+    position: relative;
+    margin-top: -10px;
+    /* overflow: hidden; */
+}
+.pricing-flux-container-items2 h3{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight:600;
+    color: #353535;
+}
+.pricing-icon2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.pricing-flux-container-items2 .pricing-icon2 i{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #8fc04e;
+}
+.pricing-flux-container-items2 .pricing-icon2 span{
+    font-size: 55px;
+    margin-top: -30px;
+    /* padding-bottom: 50px; */
+    color: #8fc04e;
+}
+.pricing-flux-container-items2 .pricing-icon2 h4{
+    color: #bababa;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.pricing-flux-container-items2 li{
+    font-family: "Open Sans", sans-serif;
+    line-height: 50px;
+    list-style-type: none;
+    font-size: 14px;
+    color: #353535;
+}
+.pricing-flux-container-items2 del{
+    font-size: 17px;
+    color: #ccc;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.pricing-flux-container-items2 a{
+    text-decoration: none;
+    border: #8fc04e solid 2px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 600px;
+    padding-top: 10px;
+    background-color: #8fc04e;
+}
+.pricing-flux-container-items2 a:hover{
+    background-color: #84d120;
+    color: #fff;
+    transition: all 0.3s;
 }
 .pricing-flux-container-items3{
     width: 350px;
@@ -1077,9 +1178,8 @@ color: #8fc04e;
     background: #f8f5f5;
     border-radius: 10px;
     text-align: center;
+    
 }
-.pricing-flux-container-items i{}
-.pricing-flux-container-items h3{}
 
 
 
